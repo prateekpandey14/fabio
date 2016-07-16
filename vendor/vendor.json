@@ -3,10 +3,28 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "iu8/VOOD5biENcflGMyKEdYxZ8E=",
+			"path": "github.com/amir/raidman",
+			"revision": "91c20f3f475cab75bb40ad7951d9bbdde357ade7",
+			"revisionTime": "2016-04-09T18:19:39Z"
+		},
+		{
+			"checksumSHA1": "ZQehrJda2JBQEqRLnaP1uY4j4H4=",
+			"path": "github.com/amir/raidman/proto",
+			"revision": "91c20f3f475cab75bb40ad7951d9bbdde357ade7",
+			"revisionTime": "2016-04-09T18:19:39Z"
+		},
+		{
 			"checksumSHA1": "eAall4ACaMG40mzSJ5Oc95GiF1A=",
 			"path": "github.com/armon/go-proxyproto",
 			"revision": "609d6338d3a76ec26ac3fe7045a164d9a58436e7",
 			"revisionTime": "2015-02-06T18:58:55-08:00"
+		},
+		{
+			"checksumSHA1": "9NoxW1ZvnX4inGkH4SA9RW6rIgM=",
+			"path": "github.com/cenkalti/backoff",
+			"revision": "cdf48bbc1eb78d1349cbda326a4a037f7ba565c6",
+			"revisionTime": "2016-06-10T10:09:12Z"
 		},
 		{
 			"checksumSHA1": "8/Q1JbAHUmL4sDURLq6yron4K/I=",
@@ -19,6 +37,12 @@
 			"path": "github.com/fatih/structs",
 			"revision": "5ada2f449b108d87dbd8c1e60c32cdd065c27886",
 			"revisionTime": "2016-06-01T09:31:17Z"
+		},
+		{
+			"checksumSHA1": "piwYMQqpsfAur670v6rFg6gqk/c=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "874264fbbb43f4d91e999fecb4b40143ed611400",
+			"revisionTime": "2016-07-11T13:55:00Z"
 		},
 		{
 			"checksumSHA1": "z8dpOCOmaolhR+Smsnh9dB4MLNs=",
@@ -143,10 +167,22 @@
 			"revisionTime": "2016-08-12T23:26:56Z"
 		},
 		{
+			"checksumSHA1": "pl0nbbUVG6NepuNN80gwCgHzkHM=",
+			"path": "github.com/pingles/go-metrics-riemann",
+			"revision": "71e02d0ee52f2c9dd57f9733ce3ef15a1ddc743c",
+			"revisionTime": "2014-10-17T12:44:26Z"
+		},
+		{
 			"checksumSHA1": "ODTWX4h8f+DW3oWZFT0yTmfHzdg=",
 			"path": "github.com/rcrowley/go-metrics",
 			"revision": "3e5e593311103d49927c8d2b0fd93ccdfe4a525c",
 			"revisionTime": "2015-07-19T09:56:14-07:00"
+		},
+		{
+			"checksumSHA1": "LvdVRE0FqdR68SvVpRkHs1rxhcA=",
+			"path": "golang.org/x/net/proxy",
+			"revision": "e90d6d0afc4c315a0d87a568ae68577cc15149a0",
+			"revisionTime": "2016-07-15T16:59:30Z"
 		},
 		{
 			"checksumSHA1": "xvuVB+aMh4udpinGsmtK31pcWC0=",
