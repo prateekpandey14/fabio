@@ -47,6 +47,7 @@ metrics.target = graphite
 metrics.prefix = someprefix
 metrics.interval = 5s
 metrics.graphite.addr = 5.6.7.8:9999
+metrics.riemann.addr = 8.8.8.8:7777
 runtime.gogc = 666
 runtime.gomaxprocs = 12
 ui.addr = 7.8.9.0:1234
@@ -121,6 +122,7 @@ aws.apigw.cert.cn = furb
 			Prefix:       "someprefix",
 			Interval:     5 * time.Second,
 			GraphiteAddr: "5.6.7.8:9999",
+			RiemannAddr:  "8.8.8.8:7777",
 		},
 		Runtime: Runtime{
 			GOGC:       666,
