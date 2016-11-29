@@ -108,6 +108,7 @@ func load(p *properties.Properties) (cfg *Config, err error) {
 	f.DurationVar(&cfg.Proxy.ReadTimeout, "proxy.readtimeout", Default.Proxy.ReadTimeout, "read timeout for incoming requests")
 	f.DurationVar(&cfg.Proxy.WriteTimeout, "proxy.writetimeout", Default.Proxy.WriteTimeout, "write timeout for outgoing responses")
 	f.DurationVar(&cfg.Proxy.FlushInterval, "proxy.flushinterval", Default.Proxy.FlushInterval, "flush interval for streaming responses")
+	f.StringVar(&cfg.Proxy.Username, "proxy.user", Default.Proxy.Username, "run fabio as user")
 	f.StringVar(&cfg.Metrics.Target, "metrics.target", Default.Metrics.Target, "metrics backend")
 	f.StringVar(&cfg.Metrics.Prefix, "metrics.prefix", Default.Metrics.Prefix, "prefix for reported metrics")
 	f.StringVar(&cfg.Metrics.Names, "metrics.names", Default.Metrics.Names, "route metric name template")
